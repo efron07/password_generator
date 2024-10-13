@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+  margin: 0;
+    
+                                                
+}
+.container {
+  width: 550px;
+  height: 550px;
+  background: #1f2937;
+  margin: 30px auto;
+}
+h1 {
+  color: white;
+  font-weight: bolder;
+  font-family: "Karla", sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  padding-top: 50px;
+  padding-left: 80px;
+}
+h1 span {
+  color: #4adf86;
+}
+h2 {
+  font-family: "intel", "Helvetica Neue";
+  font-size: 20px;
+  color: white;
+  padding-left: 80px;
+}
+#button1,
+#button2 {
+  width: 211px;
+  height: 39px;
+  background: #273549;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+#separator {
+  width: 446px;
+  margin: 50px auto;
+  height: 1px;
+  background-color: #2F3E53;
+
+}
+#generatotbtn {
+  width: 211px;
+  height: 39px;
+  background: #10b981;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+#message{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
